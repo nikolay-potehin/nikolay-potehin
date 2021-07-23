@@ -1,0 +1,4 @@
+- 👋 Hi, I’m @nikolay-potehin
+- 👀 I’m interested in IT and self-development
+- 🌱 I’m currently learning web-programming on Yandex.Praktikum
+- 📫 You can reach me by sending an email on potehinnikolay@yandex.ru
