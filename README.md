@@ -22,7 +22,5 @@
 
 I am a Beginner Unity Developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> from Russia.
 
-
-
-To Do: The rest of my README file later...
----
+The rest will be done later
+=
