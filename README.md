@@ -7,8 +7,11 @@
 <div id="views-counter" align="center">
   <img src="https://komarev.com/ghpvc/?username=nikolay-potehin&style=flat-square&color=blue" alt=""/>
 </div>
+<h1 align="center">
+  hey there
+  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
+</h1>
 
-👋 Hey there
 - 👀 I’m interested in IT and self-development
 - 🌱 I’m currently learning web-programming on Yandex.Praktikum
 - 📫 You can reach me by sending an email on potehinnikolay@yandex.ru
