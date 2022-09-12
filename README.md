@@ -20,7 +20,12 @@
 :man_technologist: About Me :
 ---
 
-I am a Beginner Unity Developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> from Russia.
+I am a Beginner Developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> from Russia.
+- :telescope: I am now studying at the Ural Federal University as a student.
 
-The rest will be done later
-=
+- :seedling: I know Python and C#.
+
+- :zap: In my free time, I like to learn Unity Engine.
+
+- :mailbox: How to reach me: [![Vk Badge](https://img.shields.io/badge/-nikolay-blue?style=flat&logo=vk&logoColor=white)](https://vk.com/potehin2018)
+
