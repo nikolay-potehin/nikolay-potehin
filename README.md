@@ -17,8 +17,9 @@
   <img src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif" width="600" height="300"/>
 </div>
 
-:man_technologist: About Me :
 ---
+
+### :man_technologist: About Me :
 
 I am a Beginner Developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> from Russia.
 - :telescope: I am now studying at the Ural Federal University as a student.
@@ -29,8 +30,10 @@ I am a Beginner Developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTG
 
 - :mailbox: How to reach me: [![Vk Badge](https://img.shields.io/badge/-nikolay-blue?style=flat&logo=vk&logoColor=white)](https://vk.com/potehin2018)
 
-:hammer_and_wrench: Languages and Tools :
 ---
+
+### :hammer_and_wrench: Languages and Tools :
+
 <div>
   <img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg" title="Python" alt="Python" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/csharp/csharp-original.svg" title="C#" alt="C#" width="40" height="40"/>&nbsp;
@@ -38,6 +41,13 @@ I am a Beginner Developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTG
   <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-original.svg" title="CSS3" alt="CSS3" width="40" height="40"/>&nbsp;
 </div>
 
+---
+
+### :fire: My Stats :
+
+[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=nikolay-potehin&theme=dark&background=000000)](https://git.io/streak-stats)
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=nikolay-potehin&layout=compact&theme=vision-friendly-dark)](https://github.com/anuraghazra/github-readme-stats)
 
 
 
