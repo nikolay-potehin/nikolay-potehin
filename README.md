@@ -26,7 +26,7 @@ I am a Beginner Developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTG
 
 - :seedling: I know Python and C#.
 
-- :zap: In my free time, I like to learn Unity Engine.
+- :zap: In my free time, I like to learn Unity Engine and Web Development.
 
 - :mailbox: How to reach me: [![Vk Badge](https://img.shields.io/badge/-nikolay-blue?style=flat&logo=vk&logoColor=white)](https://vk.com/potehin2018)
 
