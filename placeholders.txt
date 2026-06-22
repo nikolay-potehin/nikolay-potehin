@@ -1,0 +1,87 @@
+# Placeholders to fill
+
+This file lists every placeholder in the portfolio that needs real data.
+Search the project for the placeholder name and replace it.
+
+## Personal info
+- PLACEHOLDER_EMAIL@example.com — your real email address
+- PLACEHOLDER_LINKEDIN — your LinkedIn profile slug (e.g. in/nikol)
+- PLACEHOLDER_GITHUB_USERNAME — your GitHub username
+- PLACEHOLDER_TELEGRAM — your Telegram username (without @)
+- PLACEHOLDER_LOCATION — your city/country
+
+## Assets (place files in ./assets/images/)
+- favicon.png — site favicon
+- avatar.png — your profile photo for the header
+- cover-samsung-hackathon.png — screenshot/cover of your Samsung Hackathon winning project
+- cover-project-1.png — cover image for project 1
+- cover-project-2.png — cover image for project 2
+- cover-project-3.png — cover image for project 3
+- avatar-testimonial-1.png — photo of testimonial person 1
+- avatar-testimonial-2.png — photo of testimonial person 2
+
+## Samsung Hackathon case (index.html)
+- PLACEHOLDER_NUMBER_OF_TEAMS — number of teams you competed against
+- PLACEHOLDER_PROJECT_DESCRIPTION — what you built
+- PLACEHOLDER_HACKATHON_DURATION — e.g. "48" (hours)
+- PLACEHOLDER_IMPACT_DESCRIPTION — what the project achieved/did
+- PLACEHOLDER_JUDGE_PRAISE — what the Samsung judges praised
+
+## Project cases (3 slots)
+### Project 1
+- PLACEHOLDER_COMPANY_1 — company or project name
+- PLACEHOLDER_PROJECT_TITLE_1 — title
+- PLACEHOLDER_TECH_STACK_1 — e.g. "React · Node.js · PostgreSQL"
+- PLACEHOLDER_PROJECT_SUMMARY_1 — one-line summary
+- PLACEHOLDER_PROJECT_GOAL_1 — goal description
+- PLACEHOLDER_PROJECT_IMPACT_1 — measurable impact
+
+### Project 2
+- PLACEHOLDER_COMPANY_2
+- PLACEHOLDER_PROJECT_TITLE_2
+- PLACEHOLDER_TECH_STACK_2
+- PLACEHOLDER_PROJECT_SUMMARY_2
+- PLACEHOLDER_PROJECT_GOAL_2
+- PLACEHOLDER_PROJECT_IMPACT_2
+
+### Project 3
+- PLACEHOLDER_COMPANY_3
+- PLACEHOLDER_PROJECT_TITLE_3
+- PLACEHOLDER_TECH_STACK_3
+- PLACEHOLDER_PROJECT_SUMMARY_3
+- PLACEHOLDER_PROJECT_GOAL_3
+- PLACEHOLDER_PROJECT_IMPACT_3
+
+## Impact highlights (5 metric slots)
+- PLACEHOLDER_METRIC_1 — e.g. "100k+" (the number)
+- PLACEHOLDER_METRIC_LABEL_1 — e.g. "users" (the label)
+- PLACEHOLDER_METRIC_DESCRIPTION_1 — short description
+- PLACEHOLDER_METRIC_2 / _LABEL_2 / _DESCRIPTION_2
+- PLACEHOLDER_METRIC_3 / _LABEL_3 / _DESCRIPTION_3
+- PLACEHOLDER_METRIC_4 / _LABEL_4 / _DESCRIPTION_4
+
+## Expertise section
+- PLACEHOLDER_BACKEND_TECH — e.g. "Node.js, Python, Go, PostgreSQL, Redis"
+- PLACEHOLDER_FRONTEND_TECH — e.g. "React, TypeScript, Tailwind CSS"
+- PLACEHOLDER_DEVOPS_TECH — e.g. "Docker, Kubernetes, AWS, GitHub Actions"
+- PLACEHOLDER_COMPETITIVE_NOTES — competitive programming achievements
+- PLACEHOLDER_OTHER_AWARDS — other hackathon/competition awards
+- PLACEHOLDER_LANGUAGES_TOOLS — languages and tools you use
+
+## Testimonials (2 slots)
+- PLACEHOLDER_TESTIMONIAL_NAME_1 — person's name
+- PLACEHOLDER_TESTIMONIAL_ROLE_1 — their job title/company
+- PLACEHOLDER_TESTIMONIAL_QUOTE_1 — the quote text
+- PLACEHOLDER_TESTIMONIAL_NAME_2
+- PLACEHOLDER_TESTIMONIAL_ROLE_2
+- PLACEHOLDER_TESTIMONIAL_QUOTE_2
+
+## Documents (./docs/)
+- resume.pdf — your resume/CV PDF (required)
+- certificates/samsung-hackathon.pdf — your 1st place certificate
+- PLACEHOLDER_DOC_TITLE_1 — additional document title
+- PLACEHOLDER_DOC_DESCRIPTION_1 — additional document description
+- PLACEHOLDER_DOC_FILE_1 — additional document filename
+- PLACEHOLDER_DOC_TITLE_2
+- PLACEHOLDER_DOC_DESCRIPTION_2
+- PLACEHOLDER_DOC_FILE_2

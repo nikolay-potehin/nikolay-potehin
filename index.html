@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nikol — Software Engineer & Hackathon Winner</title>
+  <meta name="description" content="Software engineer specializing in full-stack development, competitive programming, and award-winning hackathon projects. 1st place Samsung Hackathon nationwide.">
+  <link rel="icon" type="image/png" href="./assets/images/favicon.png">
+  <link rel="apple-touch-icon" href="./assets/images/favicon.png">
+  <link rel="stylesheet" href="./css/style.css">
+  <script>
+    (() => {
+      try {
+        const storedTheme = window.localStorage.getItem('theme-preference');
+        if (storedTheme === 'light' || storedTheme === 'dark') {
+          document.documentElement.dataset.theme = storedTheme;
+        } else {
+          document.documentElement.removeAttribute('data-theme');
+        }
+      } catch {
+        document.documentElement.removeAttribute('data-theme');
+      }
+    })();
+  </script>
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="./index.html" aria-label="Nikol home">
+        <img class="brand-avatar" src="./assets/images/avatar.png" alt="Nikol">
+        <span class="brand-name text-balance">Nikol</span>
+      </a>
+      <nav class="primary-nav" aria-label="Primary navigation">
+        <a href="#work" class="nav-link">Work</a>
+        <a href="#impact" class="nav-link">Impact</a>
+        <a href="#expertise" class="nav-link">Expertise</a>
+        <a href="#testimonials" class="nav-link">Testimonials</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+      <div class="header-actions" aria-label="Profile links">
+        <a class="button button-ghost" href="./docs/" target="_blank" rel="noopener noreferrer">CV</a>
+        <a class="button button-ghost" href="https://github.com/PLACEHOLDER_GITHUB_USERNAME" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a class="button button-ghost" href="https://www.linkedin.com/in/PLACEHOLDER_LINKEDIN" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <button class="header-email-copy" type="button" aria-label="Copy email address" data-header-email-copy data-copy-email="PLACEHOLDER_EMAIL@example.com" data-copy-tooltip="Copy email" data-copy-state="">
+          <span>Email</span>
+          <span class="header-email-status" aria-live="polite" aria-atomic="true"></span>
+        </button>
+        <button type="button" class="theme-toggle" data-theme-toggle data-theme-state="dark" aria-label="Switch to light theme" title="Switch to light theme">
+          <span class="theme-icon-stack" aria-hidden="true">
+            <svg class="theme-icon theme-icon-sun" viewBox="0 0 20 20" fill="none">
+              <circle cx="10" cy="10" r="3.5"></circle>
+              <path d="M10 2.5v2M10 15.5v2M17.5 10h-2M4.5 10h-2M15.3 4.7l-1.4 1.4M6.1 13.9l-1.4 1.4M15.3 15.3l-1.4-1.4M6.1 6.1 4.7 4.7"></path>
+            </svg>
+            <svg class="theme-icon theme-icon-moon" viewBox="0 0 20 20" fill="none">
+              <path d="M12.7 3.4a6.8 6.8 0 1 0 3.9 12.3A7.7 7.7 0 0 1 12.7 3.4Z"></path>
+            </svg>
+          </span>
+        </button>
+      </div>
+      <div class="compact-actions">
+        <button type="button" class="theme-toggle" data-theme-toggle data-theme-state="dark" aria-label="Switch to light theme" title="Switch to light theme">
+          <span class="theme-icon-stack" aria-hidden="true">
+            <svg class="theme-icon theme-icon-sun" viewBox="0 0 20 20" fill="none">
+              <circle cx="10" cy="10" r="3.5"></circle>
+              <path d="M10 2.5v2M10 15.5v2M17.5 10h-2M4.5 10h-2M15.3 4.7l-1.4 1.4M6.1 13.9l-1.4 1.4M15.3 15.3l-1.4-1.4M6.1 6.1 4.7 4.7"></path>
+            </svg>
+            <svg class="theme-icon theme-icon-moon" viewBox="0 0 20 20" fill="none">
+              <path d="M12.7 3.4a6.8 6.8 0 1 0 3.9 12.3A7.7 7.7 0 0 1 12.7 3.4Z"></path>
+            </svg>
+          </span>
+        </button>
+        <button class="menu-toggle" type="button" aria-label="Open contact modal" aria-expanded="false" aria-controls="contact-dialog" data-contact-open>
+          <span>Contacts +</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="contact-modal" id="contact-dialog" role="dialog" aria-modal="true" aria-labelledby="contact-dialog-title" data-contact-modal hidden>
+    <div class="contact-modal-backdrop" data-contact-close></div>
+    <div class="contact-modal-panel">
+      <p id="contact-dialog-title" class="contact-modal-title">Contact</p>
+      <button class="contact-modal-close" type="button" aria-label="Close contact modal" data-contact-close>Close —</button>
+      <div class="contact-modal-links" aria-label="Contact links">
+        <a class="contact-modal-item" href="./docs/" target="_blank" rel="noopener noreferrer" data-contact-link>CV</a>
+        <a class="contact-modal-item" href="https://github.com/PLACEHOLDER_GITHUB_USERNAME" target="_blank" rel="noopener noreferrer" data-contact-link>GitHub</a>
+        <a class="contact-modal-item" href="https://www.linkedin.com/in/PLACEHOLDER_LINKEDIN" target="_blank" rel="noopener noreferrer" data-contact-link>LinkedIn</a>
+        <button class="contact-modal-item" type="button" data-contact-email-copy data-contact-email="PLACEHOLDER_EMAIL@example.com" aria-label="Copy email address">
+          <span data-contact-email-label>Email</span>
+          <span class="contact-modal-status" data-contact-email-status aria-live="polite" aria-atomic="true"></span>
+        </button>
+        <a class="contact-modal-item" href="https://t.me/PLACEHOLDER_TELEGRAM" target="_blank" rel="noopener noreferrer" data-contact-link>Telegram</a>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <div class="hero-heading">
+          <h1 id="hero-title" class="text-balance">Software&nbsp;Engineer</h1>
+          <p class="hero-subheadline text-balance">Full-Stack · Competitive&nbsp;Programming · Hackathon&nbsp;Winner · Scalable&nbsp;Systems</p>
+        </div>
+        <p class="hero-body text-pretty">Building robust full-stack applications, developer tools, and high-performance systems. 1st place winner of the Samsung Hackathon nationwide. Passionate about clean architecture, algorithmic problem-solving, and shipping products that matter.</p>
+        <p class="hero-availability text-body text-pretty">PLACEHOLDER_LOCATION · Remote worldwide · Open to relocation</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="mailto:PLACEHOLDER_EMAIL@example.com">Email Me</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="page-section work-section" id="work" aria-labelledby="work-title">
+      <h2 id="work-title" class="sr-only">Selected work</h2>
+      <div class="case-list">
+
+        <article class="case-card">
+          <div class="case-text">
+            <div class="case-intro">
+              <p class="company-label">Samsung Hackathon</p>
+              <h3 class="text-balance">1st Place — Nationwide Samsung Hackathon</h3>
+              <p class="case-tags-text text-pretty">Hackathon · Nationwide · 1st Place · Team Project</p>
+              <p class="case-summary text-pretty">Won first place at the nationwide Samsung Hackathon, competing against PLACEHOLDER_NUMBER_OF_TEAMS teams. Built PLACEHOLDER_PROJECT_DESCRIPTION in PLACEHOLDER_HACKATHON_DURATION hours.</p>
+            </div>
+            <dl>
+              <div>
+                <dt>Goal</dt>
+                <dd class="text-pretty">Solve a real-world challenge posed by Samsung within a tight timebox, demonstrating technical depth, product thinking, and teamwork.</dd>
+              </div>
+              <div>
+                <dt>Impact</dt>
+                <dd class="text-pretty">Awarded 1st place nationwide. The project PLACEHOLDER_IMPACT_DESCRIPTION and was recognized by Samsung judges for PLACEHOLDER_JUDGE_PRAISE.</dd>
+              </div>
+            </dl>
+          </div>
+          <div class="case-media">
+            <img src="./assets/images/cover-samsung-hackathon.png" alt="Samsung Hackathon 1st place project preview" loading="lazy">
+          </div>
+        </article>
+
+        <article class="case-card">
+          <div class="case-text">
+            <div class="case-intro">
+              <p class="company-label">PLACEHOLDER_COMPANY_1</p>
+              <h3 class="text-balance">PLACEHOLDER_PROJECT_TITLE_1</h3>
+              <p class="case-tags-text text-pretty">PLACEHOLDER_TECH_STACK_1</p>
+              <p class="case-summary text-pretty">PLACEHOLDER_PROJECT_SUMMARY_1</p>
+            </div>
+            <dl>
+              <div>
+                <dt>Goal</dt>
+                <dd class="text-pretty">PLACEHOLDER_PROJECT_GOAL_1</dd>
+              </div>
+              <div>
+                <dt>Impact</dt>
+                <dd class="text-pretty">PLACEHOLDER_PROJECT_IMPACT_1</dd>
+              </div>
+            </dl>
+          </div>
+          <div class="case-media">
+            <img src="./assets/images/cover-project-1.png" alt="PLACEHOLDER_PROJECT_TITLE_1 preview" loading="lazy">
+          </div>
+        </article>
+
+        <article class="case-card">
+          <div class="case-text">
+            <div class="case-intro">
+              <p class="company-label">PLACEHOLDER_COMPANY_2</p>
+              <h3 class="text-balance">PLACEHOLDER_PROJECT_TITLE_2</h3>
+              <p class="case-tags-text text-pretty">PLACEHOLDER_TECH_STACK_2</p>
+              <p class="case-summary text-pretty">PLACEHOLDER_PROJECT_SUMMARY_2</p>
+            </div>
+            <dl>
+              <div>
+                <dt>Goal</dt>
+                <dd class="text-pretty">PLACEHOLDER_PROJECT_GOAL_2</dd>
+              </div>
+              <div>
+                <dt>Impact</dt>
+                <dd class="text-pretty">PLACEHOLDER_PROJECT_IMPACT_2</dd>
+              </div>
+            </dl>
+          </div>
+          <div class="case-media">
+            <img src="./assets/images/cover-project-2.png" alt="PLACEHOLDER_PROJECT_TITLE_2 preview" loading="lazy">
+          </div>
+        </article>
+
+        <article class="case-card">
+          <div class="case-text">
+            <div class="case-intro">
+              <p class="company-label">PLACEHOLDER_COMPANY_3</p>
+              <h3 class="text-balance">PLACEHOLDER_PROJECT_TITLE_3</h3>
+              <p class="case-tags-text text-pretty">PLACEHOLDER_TECH_STACK_3</p>
+              <p class="case-summary text-pretty">PLACEHOLDER_PROJECT_SUMMARY_3</p>
+            </div>
+            <dl>
+              <div>
+                <dt>Goal</dt>
+                <dd class="text-pretty">PLACEHOLDER_PROJECT_GOAL_3</dd>
+              </div>
+              <div>
+                <dt>Impact</dt>
+                <dd class="text-pretty">PLACEHOLDER_PROJECT_IMPACT_3</dd>
+              </div>
+            </dl>
+          </div>
+          <div class="case-media">
+            <img src="./assets/images/cover-project-3.png" alt="PLACEHOLDER_PROJECT_TITLE_3 preview" loading="lazy">
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <section class="page-section" id="impact" aria-labelledby="impact-title">
+      <div class="section-header">
+        <h2 id="impact-title" class="text-balance">Impact Highlights</h2>
+      </div>
+      <div class="impact-grid">
+        <article class="impact-item">
+          <strong class="text-balance">1st</strong>
+          <h3 class="text-body text-balance">place nationwide</h3>
+          <p class="text-pretty">Samsung Hackathon winner out of PLACEHOLDER_NUMBER_OF_TEAMS teams.</p>
+        </article>
+        <article class="impact-item">
+          <strong class="text-balance">PLACEHOLDER_METRIC_1</strong>
+          <h3 class="text-body text-balance">PLACEHOLDER_METRIC_LABEL_1</h3>
+          <p class="text-pretty">PLACEHOLDER_METRIC_DESCRIPTION_1</p>
+        </article>
+        <article class="impact-item">
+          <strong class="text-balance">PLACEHOLDER_METRIC_2</strong>
+          <h3 class="text-body text-balance">PLACEHOLDER_METRIC_LABEL_2</h3>
+          <p class="text-pretty">PLACEHOLDER_METRIC_DESCRIPTION_2</p>
+        </article>
+        <article class="impact-item">
+          <strong class="text-balance">PLACEHOLDER_METRIC_3</strong>
+          <h3 class="text-body text-balance">PLACEHOLDER_METRIC_LABEL_3</h3>
+          <p class="text-pretty">PLACEHOLDER_METRIC_DESCRIPTION_3</p>
+        </article>
+        <article class="impact-item">
+          <strong class="text-balance">PLACEHOLDER_METRIC_4</strong>
+          <h3 class="text-body text-balance">PLACEHOLDER_METRIC_LABEL_4</h3>
+          <p class="text-pretty">PLACEHOLDER_METRIC_DESCRIPTION_4</p>
+        </article>
+        <article class="impact-item">
+          <strong class="text-balance">Full-Stack</strong>
+          <h3 class="text-body text-balance">engineering</h3>
+          <p class="text-pretty">End-to-end delivery from architecture to deployment.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="page-section" id="expertise" aria-labelledby="expertise-title">
+      <div class="section-header">
+        <h2 id="expertise-title" class="text-balance">Expertise</h2>
+      </div>
+      <div class="expertise-grid">
+        <article class="expertise-item">
+          <h3 class="text-body text-balance">Backend & Systems</h3>
+          <p class="text-pretty">PLACEHOLDER_BACKEND_TECH</p>
+        </article>
+        <article class="expertise-item">
+          <h3 class="text-body text-balance">Frontend</h3>
+          <p class="text-pretty">PLACEHOLDER_FRONTEND_TECH</p>
+        </article>
+        <article class="expertise-item">
+          <h3 class="text-body text-balance">Infrastructure & DevOps</h3>
+          <p class="text-pretty">PLACEHOLDER_DEVOPS_TECH</p>
+        </article>
+        <article class="expertise-item">
+          <h3 class="text-body text-balance">Competitive Programming</h3>
+          <p class="text-pretty">PLACEHOLDER_COMPETITIVE_NOTES</p>
+        </article>
+        <article class="expertise-item">
+          <h3 class="text-body text-balance">Hackathons & Awards</h3>
+          <p class="text-pretty">1st place Samsung Hackathon nationwide. PLACEHOLDER_OTHER_AWARDS</p>
+        </article>
+        <article class="expertise-item">
+          <h3 class="text-body text-balance">Languages & Tools</h3>
+          <p class="text-pretty">PLACEHOLDER_LANGUAGES_TOOLS</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="page-section testimonials-section" id="testimonials" aria-labelledby="testimonials-title">
+      <div class="section-header">
+        <h2 id="testimonials-title" class="text-balance">People about working with me</h2>
+      </div>
+      <div class="testimonial-list">
+        <figure class="testimonial-card">
+          <figcaption class="testimonial-person">
+            <img class="testimonial-avatar" src="./assets/images/avatar-testimonial-1.png" alt="PLACEHOLDER_TESTIMONIAL_NAME_1" loading="lazy">
+            <span>
+              <strong class="text-balance">PLACEHOLDER_TESTIMONIAL_NAME_1</strong>
+              <span class="text-pretty">PLACEHOLDER_TESTIMONIAL_ROLE_1</span>
+            </span>
+          </figcaption>
+          <blockquote>
+            <p class="text-pretty">"PLACEHOLDER_TESTIMONIAL_QUOTE_1"</p>
+          </blockquote>
+          <a class="button button-ghost" href="https://www.linkedin.com/in/PLACEHOLDER_LINKEDIN" target="_blank" rel="noopener noreferrer">Read more on LinkedIn</a>
+        </figure>
+        <figure class="testimonial-card">
+          <figcaption class="testimonial-person">
+            <img class="testimonial-avatar" src="./assets/images/avatar-testimonial-2.png" alt="PLACEHOLDER_TESTIMONIAL_NAME_2" loading="lazy">
+            <span>
+              <strong class="text-balance">PLACEHOLDER_TESTIMONIAL_NAME_2</strong>
+              <span class="text-pretty">PLACEHOLDER_TESTIMONIAL_ROLE_2</span>
+            </span>
+          </figcaption>
+          <blockquote>
+            <p class="text-pretty">"PLACEHOLDER_TESTIMONIAL_QUOTE_2"</p>
+          </blockquote>
+          <a class="button button-ghost" href="https://www.linkedin.com/in/PLACEHOLDER_LINKEDIN" target="_blank" rel="noopener noreferrer">Read more on LinkedIn</a>
+        </figure>
+      </div>
+    </section>
+
+    <section class="cta-section" id="contact" aria-labelledby="cta-title">
+      <div class="cta-heading">
+        <h2 id="cta-title" class="text-balance">
+          Building complex products,<br>
+          developer tools, or scalable systems?<br>
+          <span class="cta-accent">Let's talk.</span>
+        </h2>
+      </div>
+      <a class="button button-primary" href="mailto:PLACEHOLDER_EMAIL@example.com">Email Me</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 Nikol</p>
+  </footer>
+
+  <script src="./js/main.js"></script>
+</body>
+
+</html>

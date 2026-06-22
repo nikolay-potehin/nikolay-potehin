@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Documents — Nikol</title>
+  <link rel="icon" type="image/png" href="../assets/images/favicon.png">
+  <link rel="stylesheet" href="../css/style.css">
+  <script>
+    (() => {
+      try {
+        const storedTheme = window.localStorage.getItem('theme-preference');
+        if (storedTheme === 'light' || storedTheme === 'dark') {
+          document.documentElement.dataset.theme = storedTheme;
+        } else {
+          document.documentElement.removeAttribute('data-theme');
+        }
+      } catch {
+        document.documentElement.removeAttribute('data-theme');
+      }
+    })();
+  </script>
+  <style>
+    .docs-page {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 80px 24px;
+    }
+
+    .docs-page h1 {
+      font-size: clamp(1.8rem, 4vw, 2.6rem);
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      margin-bottom: 12px;
+    }
+
+    .docs-page .lead {
+      color: var(--text-muted);
+      margin-bottom: 40px;
+    }
+
+    .docs-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+    }
+
+    .doc-card {
+      padding: 28px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      background: var(--bg-card);
+      transition: border-color var(--transition), background var(--transition);
+    }
+
+    .doc-card:hover {
+      border-color: var(--accent);
+      background: var(--bg-card-hover);
+    }
+
+    .doc-card h2 {
+      font-size: 1.15rem;
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+
+    .doc-card p {
+      font-size: 0.92rem;
+      color: var(--text-muted);
+      margin-bottom: 16px;
+    }
+
+    .doc-card .button {
+      margin-top: 4px;
+    }
+
+    .docs-back {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      margin-bottom: 32px;
+      color: var(--text-muted);
+      font-size: 0.9rem;
+    }
+
+    .docs-back:hover {
+      color: var(--text);
+    }
+
+    @media (max-width: 560px) {
+      .docs-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="docs-page">
+    <a class="docs-back" href="../index.html">← Back to home</a>
+    <h1>Documents</h1>
+    <p class="lead">Resume, certificates, and hackathon awards — viewable in your browser.</p>
+    <div class="docs-grid">
+      <article class="doc-card">
+        <h2>Resume / CV</h2>
+        <p>Full resume with work experience, education, and skills.</p>
+        <a class="button button-primary" href="./resume.pdf" target="_blank" rel="noopener noreferrer">View Resume</a>
+      </article>
+      <article class="doc-card">
+        <h2>Samsung Hackathon — 1st Place Certificate</h2>
+        <p>Certificate for winning first place at the nationwide Samsung Hackathon.</p>
+        <a class="button button-ghost" href="./certificates/samsung-hackathon.pdf" target="_blank" rel="noopener noreferrer">View Certificate</a>
+      </article>
+      <article class="doc-card">
+        <h2>PLACEHOLDER_DOC_TITLE_1</h2>
+        <p>PLACEHOLDER_DOC_DESCRIPTION_1</p>
+        <a class="button button-ghost" href="./PLACEHOLDER_DOC_FILE_1" target="_blank" rel="noopener noreferrer">View</a>
+      </article>
+      <article class="doc-card">
+        <h2>PLACEHOLDER_DOC_TITLE_2</h2>
+        <p>PLACEHOLDER_DOC_DESCRIPTION_2</p>
+        <a class="button button-ghost" href="./PLACEHOLDER_DOC_FILE_2" target="_blank" rel="noopener noreferrer">View</a>
+      </article>
+    </div>
+  </main>
+  <script src="../js/main.js"></script>
+</body>
+
+</html>
