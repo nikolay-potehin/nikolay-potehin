@@ -149,7 +149,7 @@
 
   if (emailCopyButton instanceof HTMLButtonElement) {
     emailCopyButton.addEventListener('click', async () => {
-      const email = emailCopyButton.dataset.contactEmail ?? 'PLACEHOLDER_EMAIL@example.com';
+      const email = emailCopyButton.dataset.contactEmail ?? 'homecomp2018@gmail.com';
       await copyEmailText(email);
       if (emailCopyLabel instanceof HTMLElement) emailCopyLabel.textContent = 'Email copied';
       if (emailCopyStatus instanceof HTMLElement) emailCopyStatus.textContent = 'Email copied';
@@ -161,7 +161,7 @@
   headerEmailCopyButtons.forEach((button) => {
     if (!(button instanceof HTMLButtonElement)) return;
     button.addEventListener('click', async () => {
-      const email = button.dataset.copyEmail ?? 'PLACEHOLDER_EMAIL@example.com';
+      const email = button.dataset.copyEmail ?? 'homecomp2018@gmail.com';
       const status = button.querySelector('.header-email-status');
       await copyEmailText(email);
       button.dataset.copyState = 'copied';
